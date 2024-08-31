@@ -12,12 +12,13 @@ namespace ExemploExplorando.Models
 
         public Pessoa()
         {
-            
+
         }
 
         public Pessoa(string nome, string sobrenome)
         {
-
+            Nome = nome;
+            Sobrenome = sobrenome;
         }
 
 
