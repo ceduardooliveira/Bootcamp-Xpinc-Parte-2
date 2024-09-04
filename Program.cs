@@ -3,13 +3,21 @@ using System.Globalization;
 
 string dataString = "2021-09-04 14:28";
 
-DateTime.TryParseExact(dataString, 
+bool sucesso = DateTime.TryParseExact(dataString, 
                         "yyyy-MM-dd HH:mm", 
                         CultureInfo.InstalledUICulture, 
                         DateTimeStyles.None, out DateTime data);
 
+if (sucesso)
+{
+    Console.WriteLine($"Conversão com sucesso! Data: {data} ");
+}
+else
+{
+    Console.WriteLine($"{dataString} não é uma data válid.");
+}
 
-Console.WriteLine(data);
+
 
 
 
