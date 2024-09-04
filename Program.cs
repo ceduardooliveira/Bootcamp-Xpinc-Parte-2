@@ -1,7 +1,14 @@
 ﻿using ExemploExplorando.Models;
 using System.Globalization;
 
-DateTime data = DateTime.Parse("09/04/2024 13:50");
+string dataString = "2021-09-04 14:28";
+
+DateTime.TryParseExact(dataString, 
+                        "yyyy-MM-dd HH:mm", 
+                        CultureInfo.InstalledUICulture, 
+                        DateTimeStyles.None, out DateTime data);
+
+
 Console.WriteLine(data);
 
 
