@@ -1,17 +1,90 @@
 ﻿using ExemploExplorando.Models;
+using System.Globalization;
 
-Pessoa p1 = new Pessoa(nome: "Carlos Eduardo", sobrenome: "Pereira de Oliveira");
-Pessoa p2 = new Pessoa(nome: "Leonardo", sobrenome: "Buta");
+string dataString = "2021-09-04 14:28";
+
+bool sucesso = DateTime.TryParseExact(dataString, 
+                        "yyyy-MM-dd HH:mm", 
+                        CultureInfo.InstalledUICulture, 
+                        DateTimeStyles.None, out DateTime data);
+
+if (sucesso)
+{
+    Console.WriteLine($"Conversão com sucesso! Data: {data} ");
+}
+else
+{
+    Console.WriteLine($"{dataString} não é uma data válid.");
+}
 
 
-Curso cursoDeIngles = new Curso();
-cursoDeIngles.Nome = "Inglês";
-cursoDeIngles.Alunos = new List<Pessoa>();
 
 
-cursoDeIngles.adicionarAluno(p1);
-cursoDeIngles.adicionarAluno(p2);
-cursoDeIngles.ListarAlunos();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// CultureInfo.DefaultThreadCurrentCulture = new CultureInfo("pt-BR");
+
+// decimal valorMonetario = 1582.40M;
+
+// Console.WriteLine(valorMonetario.ToString("C2"));
+
+// double porcentagem = .3421;
+
+// Console.WriteLine(porcentagem.ToString("P"));
+
+// int numero = 123456;
+// Console.WriteLine(numero.ToString("##-##-##"));
+
+
+
+
+
+
+
+
+
+
+// string numero1 = "10";
+// string numero2 = "20";
+
+// string resultado = numero1 + numero2;
+
+// Console.WriteLine(resultado);
+
+
+
+
+
+
+
+
+
+
+// Pessoa p1 = new Pessoa(nome: "Carlos Eduardo", sobrenome: "Pereira de Oliveira");
+// Pessoa p2 = new Pessoa(nome: "Leonardo", sobrenome: "Buta");
+
+
+// Curso cursoDeIngles = new Curso();
+// cursoDeIngles.Nome = "Inglês";
+// cursoDeIngles.Alunos = new List<Pessoa>();
+
+
+// cursoDeIngles.adicionarAluno(p1);
+// cursoDeIngles.adicionarAluno(p2);
+// cursoDeIngles.ListarAlunos();
 
 
 
