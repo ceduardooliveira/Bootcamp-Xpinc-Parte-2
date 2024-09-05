@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\cedua\\OneDrive\\Área de Trabalho\\Bootcamp - Xpinc - Parte2\\ExemploExplorando\\ExemploExplorando.csproj": {}
+    "C:\\Users\\cedua\\OneDrive\\Área de Trabalho\\Bootcamp-Xpinc-Parte2\\ExemploExplorando.csproj": {}
   },
   "projects": {
-    "C:\\Users\\cedua\\OneDrive\\Área de Trabalho\\Bootcamp - Xpinc - Parte2\\ExemploExplorando\\ExemploExplorando.csproj": {
+    "C:\\Users\\cedua\\OneDrive\\Área de Trabalho\\Bootcamp-Xpinc-Parte2\\ExemploExplorando.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cedua\\OneDrive\\Área de Trabalho\\Bootcamp - Xpinc - Parte2\\ExemploExplorando\\ExemploExplorando.csproj",
+        "projectUniqueName": "C:\\Users\\cedua\\OneDrive\\Área de Trabalho\\Bootcamp-Xpinc-Parte2\\ExemploExplorando.csproj",
         "projectName": "ExemploExplorando",
-        "projectPath": "C:\\Users\\cedua\\OneDrive\\Área de Trabalho\\Bootcamp - Xpinc - Parte2\\ExemploExplorando\\ExemploExplorando.csproj",
+        "projectPath": "C:\\Users\\cedua\\OneDrive\\Área de Trabalho\\Bootcamp-Xpinc-Parte2\\ExemploExplorando.csproj",
         "packagesPath": "C:\\Users\\cedua\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cedua\\OneDrive\\Área de Trabalho\\Bootcamp - Xpinc - Parte2\\ExemploExplorando\\obj\\",
+        "outputPath": "C:\\Users\\cedua\\OneDrive\\Área de Trabalho\\Bootcamp-Xpinc-Parte2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\cedua\\AppData\\Roaming\\NuGet\\NuGet.Config"
