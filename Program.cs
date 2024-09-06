@@ -2,13 +2,47 @@
 using System.Globalization;
 
 
-Dictionary<string, string> estados = new Dictionary<string, string>();
+(int, string, string, decimal) tupla = (1, "Eduardo", "Oliveira", 1.69M);
 
-estados.Add("SP", "São Paulo");
-estados.Add("BA", "Bahia");
-estados.Add("MG", "Minas Gerais");
+Console.WriteLine($"ID: {tupla.Item1}");
+Console.WriteLine($"Nome: {tupla.Item2}");
+Console.WriteLine($"Sobrenome: {tupla.Item3}");
+Console.WriteLine($"Altura: {tupla.Item4}");
 
-Console.WriteLine(estados["MG"]);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Dictionary<string, string> estados = new Dictionary<string, string>();
+
+// estados.Add("SP", "São Paulo");
+// estados.Add("BA", "Bahia");
+// estados.Add("MG", "Minas Gerais");
+
+// Console.WriteLine(estados["MG"]);
+
+
+
 
 // foreach(var item in estados)
 // {
