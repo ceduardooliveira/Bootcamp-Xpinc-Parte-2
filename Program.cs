@@ -12,12 +12,22 @@ try
         Console.WriteLine(linha);
     }
 
-} catch (Exception ex)
+} catch (FileNotFoundException ex)
+{
+    Console.WriteLine($"Ocorreu um erro na leitura do arquvio.Arquivo não encontrado. {ex.Message}");
+}
+
+ catch (DirectoryNotFoundException ex)
+{
+    Console.WriteLine($"Ocorreu um erro na leitura do arquvio. Caminho não econtrado. {ex.Message}");
+}
+
+ catch (Exception ex)
 {
     Console.WriteLine($"Ocorreu uma exceção genérica. {ex.Message}");
 }
 
-
+Console.WriteLine("Chegou até aqui.");
 
 
 
