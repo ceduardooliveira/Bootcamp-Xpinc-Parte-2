@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\c-edu\\.nuget\\packages\\": {}
+    "C:\\Users\\cedua\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\c-edu\\Desktop\\Bootcamp-Xpinc-Parte2\\ExemploExplorando.csproj",
+      "projectUniqueName": "C:\\Users\\cedua\\OneDrive\\Área de Trabalho\\Bootcamp-Xpinc-Parte2\\ExemploExplorando.csproj",
       "projectName": "ExemploExplorando",
-      "projectPath": "C:\\Users\\c-edu\\Desktop\\Bootcamp-Xpinc-Parte2\\ExemploExplorando.csproj",
-      "packagesPath": "C:\\Users\\c-edu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\c-edu\\Desktop\\Bootcamp-Xpinc-Parte2\\obj\\",
+      "projectPath": "C:\\Users\\cedua\\OneDrive\\Área de Trabalho\\Bootcamp-Xpinc-Parte2\\ExemploExplorando.csproj",
+      "packagesPath": "C:\\Users\\cedua\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\cedua\\OneDrive\\Área de Trabalho\\Bootcamp-Xpinc-Parte2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\c-edu\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\cedua\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -64,7 +64,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
