@@ -4,8 +4,8 @@ using System.Globalization;
 
 (int ID, string Nome, string Sobrenome, decimal Altura) tupla = (1, "Eduardo", "Oliveira", 1.69M);
 
-ValueTuple<int, string, string, decimal> outroExemploTupla = (1, "Eduardo", "Oliveira", 1.69M);
-var outroExemploTupla = Tuple.Create(1, "Eduardo", "Oliveira", 1.69M);
+// ValueTuple<int, string, string, decimal> outroExemploTupla = (1, "Eduardo", "Oliveira", 1.69M);
+// var outroExemploTupla = Tuple.Create(1, "Eduardo", "Oliveira", 1.69M);
 
 Console.WriteLine($"ID: {tupla.Item1}");
 Console.WriteLine($"Nome: {tupla.Item2}");
