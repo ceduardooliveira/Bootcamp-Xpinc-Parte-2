@@ -2,13 +2,121 @@
 using System.Globalization;
 
 
-Dictionary<string, string> estados = new Dictionary<string, string>();
+int numero = 15;
+bool ehPar = false;
 
-estados.Add("SP", "São Paulo");
-estados.Add("BA", "Bahia");
-estados.Add("MG", "Minas Gerais");
+// if ternario
+ehPar = numero % 2 == 0;
+Console.WriteLine($"O numero que temos: {numero} é: " + (ehPar ? "par": "ímpar"));
 
-Console.WriteLine(estados["MG"]);
+
+// if(numero % 2 == 0)
+// {
+//     Console.WriteLine($"O numero é {numero} é par");
+// }
+// else
+// {
+//     Console.WriteLine($"O numero é {numero} é ímpar");
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Pessoa p1 = new Pessoa("Carlos Eduardo", "Pereira de Oliveira" );
+
+// (string nome, string sobrenome) = p1;
+
+
+// Console.WriteLine($"{nome} {sobrenome}");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// LeituraArquivo arquivo = new LeituraArquivo();
+
+// var (sucesso, linhas, _) = arquivo.LerArquivos("Arquivos/arquivoLeitura.txt");
+
+// if(sucesso)
+// {
+//     //Console.WriteLine("Quantidade linhas do arquivo: " + QuantidadeLinhas);
+//     foreach(string linha in linhas)
+//     {
+//         Console.WriteLine(linha);
+//     }    
+// }
+// else
+// {
+//     Console.WriteLine("Não foi possivel ler o arquivo.");
+// }
+
+
+
+
+// (int ID, string Nome, string Sobrenome, decimal Altura) tupla = (1, "Eduardo", "Oliveira", 1.69M);
+
+// // ValueTuple<int, string, string, decimal> outroExemploTupla = (1, "Eduardo", "Oliveira", 1.69M);
+// // var outroExemploTupla = Tuple.Create(1, "Eduardo", "Oliveira", 1.69M);
+
+// Console.WriteLine($"ID: {tupla.Item1}");
+// Console.WriteLine($"Nome: {tupla.Item2}");
+// Console.WriteLine($"Sobrenome: {tupla.Item3}");
+// Console.WriteLine($"Altura: {tupla.Item4}");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Dictionary<string, string> estados = new Dictionary<string, string>();
+
+// estados.Add("SP", "São Paulo");
+// estados.Add("BA", "Bahia");
+// estados.Add("MG", "Minas Gerais");
+
+// Console.WriteLine(estados["MG"]);
+
+
+
 
 // foreach(var item in estados)
 // {
