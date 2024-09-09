@@ -2,12 +2,41 @@
 using System.Globalization;
 
 
-Pessoa p1 = new Pessoa("Carlos Eduardo", "Pereira de Oliveira" );
+int numero = 15;
+bool ehPar = false;
 
-(string nome, string sobrenome) = p1;
+// if ternario
+ehPar = numero % 2 == 0;
+Console.WriteLine($"O numero que temos: {numero} é: " + (ehPar ? "par": "ímpar"));
 
 
-Console.WriteLine($"{nome} {sobrenome}");
+// if(numero % 2 == 0)
+// {
+//     Console.WriteLine($"O numero é {numero} é par");
+// }
+// else
+// {
+//     Console.WriteLine($"O numero é {numero} é ímpar");
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Pessoa p1 = new Pessoa("Carlos Eduardo", "Pereira de Oliveira" );
+
+// (string nome, string sobrenome) = p1;
+
+
+// Console.WriteLine($"{nome} {sobrenome}");
 
 
 
