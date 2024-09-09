@@ -2,15 +2,35 @@
 using System.Globalization;
 
 
-(int ID, string Nome, string Sobrenome, decimal Altura) tupla = (1, "Eduardo", "Oliveira", 1.69M);
+LeituraArquivo arquivo = new LeituraArquivo();
 
-// ValueTuple<int, string, string, decimal> outroExemploTupla = (1, "Eduardo", "Oliveira", 1.69M);
-// var outroExemploTupla = Tuple.Create(1, "Eduardo", "Oliveira", 1.69M);
+var (sucesso, linhas, QuantidadeLinhas) = arquivo.LerArquivos("Arquivos/arquivoLeitura.txt");
 
-Console.WriteLine($"ID: {tupla.Item1}");
-Console.WriteLine($"Nome: {tupla.Item2}");
-Console.WriteLine($"Sobrenome: {tupla.Item3}");
-Console.WriteLine($"Altura: {tupla.Item4}");
+if(sucesso)
+{
+    Console.WriteLine("Quantidade linhas do arquivo: " + QuantidadeLinhas);
+    foreach(string linha in linhas)
+    {
+        Console.WriteLine(linha);
+    }    
+}
+else
+{
+    Console.WriteLine("Não foi possivel ler o arquivo.");
+}
+
+
+
+
+// (int ID, string Nome, string Sobrenome, decimal Altura) tupla = (1, "Eduardo", "Oliveira", 1.69M);
+
+// // ValueTuple<int, string, string, decimal> outroExemploTupla = (1, "Eduardo", "Oliveira", 1.69M);
+// // var outroExemploTupla = Tuple.Create(1, "Eduardo", "Oliveira", 1.69M);
+
+// Console.WriteLine($"ID: {tupla.Item1}");
+// Console.WriteLine($"Nome: {tupla.Item2}");
+// Console.WriteLine($"Sobrenome: {tupla.Item3}");
+// Console.WriteLine($"Altura: {tupla.Item4}");
 
 
 
