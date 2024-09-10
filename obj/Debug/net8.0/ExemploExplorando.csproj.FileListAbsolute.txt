@@ -43,3 +43,6 @@ C:\Users\cedua\OneDrive\Área de Trabalho\Bootcamp-Xpinc-Parte2\obj\Debug\net8.0
 C:\Users\cedua\OneDrive\Área de Trabalho\Bootcamp-Xpinc-Parte2\obj\Debug\net8.0\ExemploExplorando.pdb
 C:\Users\cedua\OneDrive\Área de Trabalho\Bootcamp-Xpinc-Parte2\obj\Debug\net8.0\ExemploExplorando.genruntimeconfig.cache
 C:\Users\cedua\OneDrive\Área de Trabalho\Bootcamp-Xpinc-Parte2\obj\Debug\net8.0\ref\ExemploExplorando.dll
+C:\Users\cedua\OneDrive\Área de Trabalho\Bootcamp-Xpinc-Parte2\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\cedua\OneDrive\Área de Trabalho\Bootcamp-Xpinc-Parte2\obj\Debug\net8.0\ExemploExplorando.csproj.AssemblyReference.cache
+C:\Users\cedua\OneDrive\Área de Trabalho\Bootcamp-Xpinc-Parte2\obj\Debug\net8.0\ExemploE.B7F01285.Up2Date
